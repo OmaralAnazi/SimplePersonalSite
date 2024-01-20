@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Personal Page</title>
+        <link href="style.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <header class="inverse">
+            <div class="container">
+                <h1>Hello, my name is <span class="accent-text">Omar</span></h1>
+                <img src="img/personal-img.png" alt="portrait of cat">
+            </div>
+        </header>
+        
+        <main>
+            <section class="about-me">
+                <div class="container">
+                    <h2>I am a <span class="accent-text">Front-end Developer</span></h2>
+                    <p>Ultricies morbi urna lectus magna quisque ultricies velit enim nisi mi volutpat amet id id porta auctor at viverra consequat turpis quam enim amet vulputate.</p>
+                    <a href="https://twitter.com/OmarAlanazi_IS" class="btn">See my work</a>
+                </div>
+            </section>
+            
+            <section class="articles inverse">
+                <div class="container">
+                    <h2>My most recent <span class="accent-text">Article</span></h2>
+                    <article>
+                        <h3>The non-existent article</h3>
+                        <p class="small-text">Writen by <span class="name">Omar</span> on <time datetime="2022-12-28">December 28, 2022</time></p>
+                        <p id="article-paragraph"> <!-- Feed by js --> </p>
+                        <button id="toggle-more-less-btn">read more</button>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <script src="index.js"></script>
+    </body> 
+</html>
