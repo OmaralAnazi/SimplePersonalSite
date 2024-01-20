@@ -18,5 +18,5 @@ This guided project, part of the Scrimba Front-End Developer Program, was about 
 Clone the repository and open the `index.html` file in a browser to view the personal site.
 
 ## Demo
-[View Live Project](#)
+[View Live Project](https://taupe-eclair-8a6d75.netlify.app/)
 
